@@ -1,0 +1,818 @@
+{
+  "FAZ 0: ANALİZ VE PLANLAMA": {
+    "baslangic": 0,
+    "sure": 3,
+    "renk": "🔴",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "0.10",
+        "gorev": "EVE Ürün Portföyü Analizi",
+        "aciklama": "EVE ürün portföyünün detaylı analizi ve değerlendirmesi",
+        "sure": 1,
+        "baslangic_hafta": 1,
+        "sorumlu": "Ertuğrul + Gökhan + Tayfun",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "0.20",
+        "gorev": "Paket Tipi Belirleme",
+        "aciklama": "Ürünler için paket tiplendirme ve standardizasyon",
+        "sure": 1,
+        "baslangic_hafta": 2,
+        "sorumlu": "Ertuğrul + Gökhan + Ali Akçay",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "0.30",
+        "gorev": "Ürün Sınıflandırma",
+        "aciklama": "Ürün kategorilendirme ve sınıflandırma sistemi",
+        "sure": 1,
+        "baslangic_hafta": 2,
+        "sorumlu": "Ertuğrul + Gökhan + Ferhat",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "0.40",
+        "gorev": "Maliyet Analizi",
+        "aciklama": "Proje ve operasyonel maliyet analizi",
+        "sure": 1,
+        "baslangic_hafta": 3,
+        "sorumlu": "Finans + Ertuğrul + Gökhan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "0.50",
+        "gorev": "ROI Analizi",
+        "aciklama": "Yatırım getirisi ve fayda analizi",
+        "sure": 1,
+        "baslangic_hafta": 3,
+        "sorumlu": "Finans + Ertuğrul + Gökhan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "0.60",
+        "gorev": "Veri Toplama",
+        "aciklama": "Sistem ve operasyonel verilerinin toplanması",
+        "sure": 2,
+        "baslangic_hafta": 1,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "0.70",
+        "gorev": "Kapasite Analizi",
+        "aciklama": "Depo ve sistem kapasite analizi",
+        "sure": 1,
+        "baslangic_hafta": 3,
+        "sorumlu": "Ertuğrul + Ferhat",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 1: SİSTEM ALTYAPISI": {
+    "baslangic": 3,
+    "sure": 6,
+    "renk": "🟢",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "1.10",
+        "gorev": "Simülasyon Modülü",
+        "aciklama": "Stok ve sevkiyat simülasyon modülü geliştirme",
+        "sure": 2,
+        "baslangic_hafta": 4,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.20",
+        "gorev": "Koli Bozma Algoritması",
+        "aciklama": "Otomatik koli bozma ve açık adet yönetimi algoritması",
+        "sure": 2,
+        "baslangic_hafta": 4,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.30",
+        "gorev": "Transfer Sistemi",
+        "aciklama": "Depolar arası transfer yönetim sistemi",
+        "sure": 2,
+        "baslangic_hafta": 5,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.40",
+        "gorev": "Açık Adet Dashboard",
+        "aciklama": "Açık adet takip ve yönetim dashboard'u",
+        "sure": 2,
+        "baslangic_hafta": 5,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.50",
+        "gorev": "Önceliklendirme",
+        "aciklama": "Ürün ve sipariş önceliklendirme sistemi",
+        "sure": 2,
+        "baslangic_hafta": 7,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.60",
+        "gorev": "Sevk Kural Motoru",
+        "aciklama": "Sevkiyat kural motoru geliştirme",
+        "sure": 3,
+        "baslangic_hafta": 5,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.70",
+        "gorev": "Sevk Algoritması",
+        "aciklama": "Optimum sevkiyat algoritması",
+        "sure": 2,
+        "baslangic_hafta": 7,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.80",
+        "gorev": "Sevk Dashboard",
+        "aciklama": "Sevkiyat takip ve yönetim dashboard'u",
+        "sure": 2,
+        "baslangic_hafta": 7,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "1.90",
+        "gorev": "Entegrasyon Test",
+        "aciklama": "Tüm modüllerin entegrasyon testleri",
+        "sure": 1,
+        "baslangic_hafta": 8,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 2: PİLOT UYGULAMA": {
+    "baslangic": 9,
+    "sure": 15,
+    "renk": "🔵",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "2.10",
+        "gorev": "Pilot Seçimi",
+        "aciklama": "Pilot mağaza ve depo seçimi",
+        "sure": 1,
+        "baslangic_hafta": 10,
+        "sorumlu": "Ertuğrul + Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.20",
+        "gorev": "EVE Paketleme",
+        "aciklama": "EVE ürünlerinin yeni paket sistemine göre hazırlanması",
+        "sure": 2,
+        "baslangic_hafta": 11,
+        "sorumlu": "Tayfun + Ali Akçay",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.30",
+        "gorev": "Stok Transferi",
+        "aciklama": "Pilot için stok transferi",
+        "sure": 1,
+        "baslangic_hafta": 13,
+        "sorumlu": "Ertuğrul + Ferhat",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.40",
+        "gorev": "Pilot 1. Ay",
+        "aciklama": "İlk ay pilot uygulama ve izleme",
+        "sure": 4,
+        "baslangic_hafta": 14,
+        "sorumlu": "Ertuğrul + Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.50",
+        "gorev": "Optimizasyon",
+        "aciklama": "Pilot sonuçlarına göre sistem optimizasyonu",
+        "sure": 1,
+        "baslangic_hafta": 18,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.60",
+        "gorev": "Faz 2A Geçiş",
+        "aciklama": "Genişletilmiş pilot geçişi",
+        "sure": 3,
+        "baslangic_hafta": 19,
+        "sorumlu": "Ertuğrul + Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.70",
+        "gorev": "EVE %50",
+        "aciklama": "EVE ürünlerinin %50'sinin sisteme dahil edilmesi",
+        "sure": 6,
+        "baslangic_hafta": 19,
+        "sorumlu": "Tayfun + Ali Akçay",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.80",
+        "gorev": "Tam Geçiş",
+        "aciklama": "Pilot lokasyonlarda tam geçiş",
+        "sure": 2,
+        "baslangic_hafta": 22,
+        "sorumlu": "Ertuğrul + Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.90",
+        "gorev": "Depo Kararı",
+        "aciklama": "Depo konsolidasyon nihai kararı",
+        "sure": 1,
+        "baslangic_hafta": 24,
+        "sorumlu": "Yönetim",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "2.91",
+        "gorev": "Depo Düzenleme",
+        "aciklama": "Depoda fiziksel düzenleme ve hazırlık",
+        "sure": 1,
+        "baslangic_hafta": 24,
+        "sorumlu": "Ertuğrul",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 3: OMS MAĞAZA OPTİMİZASYONU": {
+    "baslangic": 24,
+    "sure": 12,
+    "renk": "🟡",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "3.10",
+        "gorev": "Mevcut Mağaza Ağı Analizi",
+        "aciklama": "300 mağazanın detaylı analizi ve segmentasyonu",
+        "sure": 2,
+        "baslangic_hafta": 25,
+        "sorumlu": "Ertuğrul + Gökhan + Volkan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.20",
+        "gorev": "Personel ve Kargo Maliyet Modelleme",
+        "aciklama": "Mağaza bazlı maliyet modelleri",
+        "sure": 2,
+        "baslangic_hafta": 25,
+        "sorumlu": "Ertuğrul + Gökhan + Finans",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.30",
+        "gorev": "Matematiksel Optimizasyon Modeli",
+        "aciklama": "Mağaza stok optimizasyon modeli",
+        "sure": 3,
+        "baslangic_hafta": 27,
+        "sorumlu": "Ertuğrul + Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.40",
+        "gorev": "Bölge Bazlı Talep Analizi",
+        "aciklama": "Bölgesel talep tahmin modelleri",
+        "sure": 2,
+        "baslangic_hafta": 27,
+        "sorumlu": "Ertuğrul + Gökhan + Pazarlama",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.50",
+        "gorev": "İstisna Mağaza Belirleme",
+        "aciklama": "Özel durum mağazaların tespiti",
+        "sure": 1,
+        "baslangic_hafta": 29,
+        "sorumlu": "Volkan + Ertuğrul + Gökhan",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.60",
+        "gorev": "Yeni Mağaza Açılış Senaryoları",
+        "aciklama": "Yeni mağaza açılışları için sistem hazırlığı",
+        "sure": 2,
+        "baslangic_hafta": 30,
+        "sorumlu": "Ertuğrul + Gökhan + Finans",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.70",
+        "gorev": "ISO In-Store Ordering Ürün Segmentasyonu",
+        "aciklama": "ISO için ürün segmentasyonu",
+        "sure": 2,
+        "baslangic_hafta": 30,
+        "sorumlu": "Ertuğrul + Gökhan + Volkan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.80",
+        "gorev": "ISO Teşvik Mekanizması Tasarımı",
+        "aciklama": "Mağaza personeli teşvik sistemi",
+        "sure": 2,
+        "baslangic_hafta": 32,
+        "sorumlu": "Volkan + Pazarlama + Finans",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.90",
+        "gorev": "OMS Kural Motoru ISO Entegrasyonu",
+        "aciklama": "ISO sistemi ile OMS entegrasyonu",
+        "sure": 2,
+        "baslangic_hafta": 32,
+        "sorumlu": "Ertuğrul + Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.100",
+        "gorev": "Mağazacılık ile El Sıkışma Toplantıları",
+        "aciklama": "Mağaza operasyonları ile koordinasyon",
+        "sure": 2,
+        "baslangic_hafta": 34,
+        "sorumlu": "Yönetim + Ertuğrul + Gökhan + Volkan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.110",
+        "gorev": "Mağaza Açılış Pilot Projesi",
+        "aciklama": "Yeni mağaza pilot uygulaması",
+        "sure": 3,
+        "baslangic_hafta": 34,
+        "sorumlu": "Volkan",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.120",
+        "gorev": "ISO Teşvik Pilotu",
+        "aciklama": "Teşvik sisteminin pilot uygulaması",
+        "sure": 2,
+        "baslangic_hafta": 35,
+        "sorumlu": "Volkan + Pazarlama",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "3.130",
+        "gorev": "Sonuç Değerlendirme ve Strateji Finalizasyonu",
+        "aciklama": "Pilot sonuçlarının değerlendirilmesi",
+        "sure": 1,
+        "baslangic_hafta": 36,
+        "sorumlu": "Yönetim + Tüm Ekip",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 4: E-TİCARET KOLEKSİYON GENİŞLETME": {
+    "baslangic": 36,
+    "sure": 4,
+    "renk": "🟣",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "4.10",
+        "gorev": "Koleksiyon Genişletilmesi Çalışması",
+        "aciklama": "Yeni marka, ürün grupları ve mevcut koleksiyonun genişletilmesi",
+        "sure": 2,
+        "baslangic_hafta": 37,
+        "sorumlu": "Fatih",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "4.20",
+        "gorev": "Koli Standartlarını Gözden Geçirme",
+        "aciklama": "E-ticaret için koli standartlarının revize edilmesi",
+        "sure": 1,
+        "baslangic_hafta": 37,
+        "sorumlu": "Fatih",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "4.30",
+        "gorev": "Ürünlerin Tip 1 Leştirilmesi",
+        "aciklama": "Prepack optimizasyonu ve Tip 1 dönüşümü",
+        "sure": 2,
+        "baslangic_hafta": 38,
+        "sorumlu": "Fatih",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "4.40",
+        "gorev": "Bundle Satış Odaklı Kolileme",
+        "aciklama": "Bundle satış için özel paketleme",
+        "sure": 2,
+        "baslangic_hafta": 39,
+        "sorumlu": "Fatih",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 5: AKYAZI DEPO OPTİMİZASYONU": {
+    "baslangic": 40,
+    "sure": 4,
+    "renk": "🟠",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "5.10",
+        "gorev": "Atıl Stok Temizleme",
+        "aciklama": "Akyazı deposundaki atıl stokların temizlenmesi",
+        "sure": 2,
+        "baslangic_hafta": 41,
+        "sorumlu": "Gökhan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "5.20",
+        "gorev": "Akyazı Mağazasına Ürün Çıkışı",
+        "aciklama": "Akyazı outlet mağazasına ürün transferi",
+        "sure": 1,
+        "baslangic_hafta": 41,
+        "sorumlu": "Gökhan",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "5.30",
+        "gorev": "Akyazı Stok Yönetim RPT Modeli",
+        "aciklama": "Güvenlik stoğu ve reorder point modeli",
+        "sure": 2,
+        "baslangic_hafta": 42,
+        "sorumlu": "Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 6: TİP1 HARİÇ GLM STOĞUN AÇILMASI": {
+    "baslangic": 44,
+    "sure": 4,
+    "renk": "🟢",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "6.10",
+        "gorev": "Palet - Koli - AA Yönetim Sisteminin Kurulması",
+        "aciklama": "Palet, koli ve açık adet yönetim sistemi",
+        "sure": 2,
+        "baslangic_hafta": 45,
+        "sorumlu": "Ertuğrul",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "6.20",
+        "gorev": "Stok Yönetim Modülü",
+        "aciklama": "Paletten satış, koliden satış yönetimi",
+        "sure": 2,
+        "baslangic_hafta": 45,
+        "sorumlu": "Ferhat",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "6.30",
+        "gorev": "Açık Adet Kalanın Yönetimi",
+        "aciklama": "Bozulmuş koli ve açık adet stoklarının yönetimi",
+        "sure": 1,
+        "baslangic_hafta": 46,
+        "sorumlu": "Ertuğrul + Ferhat",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "6.40",
+        "gorev": "Karma Koli Metodu Analizi",
+        "aciklama": "Karma koli oluşturma ve yönetim metodolojisi",
+        "sure": 1,
+        "baslangic_hafta": 47,
+        "sorumlu": "Ertuğrul + Gökhan",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 7: OMS YAYGИНLAŞTIRMA VE OPTİMİZASYON": {
+    "baslangic": 48,
+    "sure": 8,
+    "renk": "🔵",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "7.10",
+        "gorev": "Mevcut 50 Mağaza OMS Performans İyileştirme",
+        "aciklama": "Mevcut OMS kullanımının optimize edilmesi",
+        "sure": 2,
+        "baslangic_hafta": 49,
+        "sorumlu": "Özcan + Volkan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "7.20",
+        "gorev": "Bölge 1 - OMS Rollout (80 Mağaza)",
+        "aciklama": "İlk bölge mağazalarına OMS kurulumu",
+        "sure": 2,
+        "baslangic_hafta": 50,
+        "sorumlu": "Volkan + IT",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "7.30",
+        "gorev": "Bölge 2 - OMS Rollout (80 Mağaza)",
+        "aciklama": "İkinci bölge mağazalarına OMS kurulumu",
+        "sure": 2,
+        "baslangic_hafta": 51,
+        "sorumlu": "Volkan + IT",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "7.40",
+        "gorev": "Bölge 3 - OMS Rollout (90 Mağaza)",
+        "aciklama": "Üçüncü bölge mağazalarına OMS kurulumu",
+        "sure": 2,
+        "baslangic_hafta": 52,
+        "sorumlu": "Volkan + IT",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "7.50",
+        "gorev": "OMS Teşvik Programı Başlatma",
+        "aciklama": "Mağaza personeli için OMS teşvik programı",
+        "sure": 3,
+        "baslangic_hafta": 53,
+        "sorumlu": "Volkan + Pazarlama",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "7.60",
+        "gorev": "Tüm Mağazalarda Doğrulama",
+        "aciklama": "300 mağazada OMS çalışırlığının doğrulanması",
+        "sure": 2,
+        "baslangic_hafta": 54,
+        "sorumlu": "Hakan + Volkan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 8: AKYAZI STOĞUN TÜM KANALLARA AÇILMASI": {
+    "baslangic": 56,
+    "sure": 4,
+    "renk": "🟣",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "8.10",
+        "gorev": "Hızlı Toplama ve Sevk Algoritması",
+        "aciklama": "Akyazı stoklarının hızlı picking algoritması",
+        "sure": 2,
+        "baslangic_hafta": 57,
+        "sorumlu": "Ertuğrul + Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "8.20",
+        "gorev": "Koli - Açık Adet Satış Entegrasyonu",
+        "aciklama": "Tüm kanallarda koli ve açık adet satış",
+        "sure": 2,
+        "baslangic_hafta": 57,
+        "sorumlu": "Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "8.30",
+        "gorev": "E-ticaret Akyazı Entegrasyonu",
+        "aciklama": "Akyazı stoklarının e-ticaret platformuna açılması",
+        "sure": 2,
+        "baslangic_hafta": 59,
+        "sorumlu": "Gökhan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 9: OMNICHANNEL ENTEGRASYON": {
+    "baslangic": 60,
+    "sure": 6,
+    "renk": "🟡",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "9.10",
+        "gorev": "Cross-Channel Stok Görünürlüğü",
+        "aciklama": "Tüm kanallar tek stok havuzundan görüntüleme",
+        "sure": 2,
+        "baslangic_hafta": 61,
+        "sorumlu": "Gökhan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "9.20",
+        "gorev": "Sipariş Yönlendirme Algoritması",
+        "aciklama": "En optimal noktadan sipariş karşılama",
+        "sure": 2,
+        "baslangic_hafta": 61,
+        "sorumlu": "Hakan + Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "9.30",
+        "gorev": "Click & Collect Aktifleştirme",
+        "aciklama": "Online sipariş, mağazadan teslim",
+        "sure": 2,
+        "baslangic_hafta": 63,
+        "sorumlu": "Gökhan + Volkan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "9.40",
+        "gorev": "Ship from Store",
+        "aciklama": "Mağazalardan e-ticaret siparişlerini gönderme",
+        "sure": 2,
+        "baslangic_hafta": 63,
+        "sorumlu": "Gökhan + Ertuğrul",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "9.50",
+        "gorev": "İade Yönetimi - Omnichannel",
+        "aciklama": "Her kanaldan alınan ürünün her kanaldan iadesi",
+        "sure": 2,
+        "baslangic_hafta": 65,
+        "sorumlu": "Gökhan + Volkan",
+        "oncelik": "Orta",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 10: TEST VE STABİLİZASYON": {
+    "baslangic": 66,
+    "sure": 4,
+    "renk": "🟠",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "10.10",
+        "gorev": "End-to-End Test Senaryoları",
+        "aciklama": "Tüm kanallar için gerçek zamanlı testler",
+        "sure": 2,
+        "baslangic_hafta": 67,
+        "sorumlu": "Hakan + Tüm Ekip",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "10.20",
+        "gorev": "Performans ve Yük Testi",
+        "aciklama": "Yoğun dönemlerde sistem performans testi",
+        "sure": 1,
+        "baslangic_hafta": 67,
+        "sorumlu": "Özcan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "10.30",
+        "gorev": "Kullanıcı Kabul Testleri",
+        "aciklama": "Mağaza ve e-ticaret kullanıcılarının testleri",
+        "sure": 1,
+        "baslangic_hafta": 68,
+        "sorumlu": "Volkan + Gökhan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "10.40",
+        "gorev": "Stabilizasyon ve Bug Fixing",
+        "aciklama": "Tespit edilen sorunların çözümü",
+        "sure": 2,
+        "baslangic_hafta": 69,
+        "sorumlu": "Özcan + IT",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      }
+    ]
+  },
+  "FAZ 11: YAYINLAMA VE İZLEME": {
+    "baslangic": 70,
+    "sure": 4,
+    "renk": "🟢",
+    "durum": "Planlandı",
+    "gorevler": [
+      {
+        "id": "11.10",
+        "gorev": "Go-Live: Tek Stok Sistemi",
+        "aciklama": "100% omnichannel sistemin canlıya alınması",
+        "sure": 1,
+        "baslangic_hafta": 71,
+        "sorumlu": "CEO + Tüm Ekip",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "11.20",
+        "gorev": "7 Gün Yoğun İzleme",
+        "aciklama": "Canlıya geçişten sonra 7/24 monitoring",
+        "sure": 1,
+        "baslangic_hafta": 71,
+        "sorumlu": "Özcan + Hakan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "11.30",
+        "gorev": "İlk Ay Performans Analizi",
+        "aciklama": "Stok kullanım oranları, satış artışı analizi",
+        "sure": 2,
+        "baslangic_hafta": 72,
+        "sorumlu": "Hakan",
+        "oncelik": "Yüksek",
+        "durum": "Planlandı"
+      },
+      {
+        "id": "11.40",
+        "gorev": "CEO Sunumu ve Proje Kapanışı",
+        "aciklama": "Proje sonuçlarının CEO'ya sunumu",
+        "sure": 1,
+        "baslangic_hafta": 73,
+        "sorumlu": "Hakan",
+        "oncelik": "Kritik",
+        "durum": "Planlandı"
+      }
+    ]
+  }
+}
