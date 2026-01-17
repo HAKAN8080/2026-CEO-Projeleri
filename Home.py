@@ -161,33 +161,33 @@ col1, col2 = st.columns(2)
 with col1:
     with st.container():
         st.markdown("""
-        <div style='padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+        <div style='padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         border-radius: 15px; color: white; margin-bottom: 20px;'>
-            <h2 style='margin: 0; font-size: 1.8rem;'>🏪 Proje 1: OMS Tek Stok</h2>
-            <p style='margin: 10px 0 0 0; opacity: 0.9;'>%100 Omnichannel Yapı</p>
+            <h2 style='margin: 0; font-size: 1.8rem;'>📦 Proje 1: OMS Proje Plani</h2>
+            <p style='margin: 10px 0 0 0; opacity: 0.9;'>Stok Optimizasyonu ve OMS Yayginlastirma</p>
         </div>
         """, unsafe_allow_html=True)
-        
+
         st.markdown("**📋 Kapsam:**")
-        st.write("• Tüm stokların tüm kanallara açılması")
-        st.write("• 300 mağazaya OMS yaygınlaştırma")
-        st.write("• E-ticaret tam entegrasyonu")
-        st.write("• Depo birleştirme ve optimizasyon")
-        
+        st.write("• Daha fazla TIP 1 urun donusumu")
+        st.write("• Akyazi maksimum stok optimizasyonu")
+        st.write("• GLM stogunun satisa acilmasi")
+        st.write("• OMS verimlilik ve yayginlastirma")
+
         st.markdown("**📊 Durum:**")
         col_a, col_b, col_c = st.columns(3)
         with col_a:
-            st.metric("Faz", "11")
+            st.metric("Faz", "5")
         with col_b:
-            st.metric("Görev", "72")
+            st.metric("Gorev", "23")
         with col_c:
-            st.metric("Hafta", "74")
-        
+            st.metric("Hafta", "20")
+
         st.markdown("**👥 Sorumlu:**")
-        st.write("Ertuğrul, Gökhan, Volkan, Özcan, Ferhat")
-        
-        if st.button("📂 Projeyi Aç", key="oms", use_container_width=True, type="primary"):
-            st.switch_page("pages/1_OMS_Tek_Stok.py")
+        st.write("Fatih, Gokhan, Ertugrul, Ozcan, Ferhat, Volkan")
+
+        if st.button("📂 Projeyi Ac", key="oms", use_container_width=True, type="primary"):
+            st.switch_page("pages/1_OMS_Proje_Plani.py")
 
 with col2:
     with st.container():
